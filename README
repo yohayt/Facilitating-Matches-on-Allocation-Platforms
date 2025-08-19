@@ -1,0 +1,16 @@
+Source code for IJCAI 2025 submission: 233
+For running an experiment, use the python file with a name equal to the Figure id of the corresponding graph.
+
+Folders:
+images: storing the generated figures.
+datasets: the input datasets.
+output: the textual (intermediate) output files.
+preprocess: the python classes for preprocessing the datasets.
+
+Files:
+FIG3.py, FIG4.py, FIG5_LEFT.py, FIG5_RIGHT.py: python classes for running the experiments and generating figures.
+util.py: utility functions for running the internal logic.
+
+For accelerating the runs, the map function could be easily replaced with the multiprocessing map function,
+multiprocessing code was tested only in linux. the code itself works also in windows systems.
+Required python packages: NetworkX, pandas, seaborn, matplotlib, functools.
