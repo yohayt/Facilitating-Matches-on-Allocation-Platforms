@@ -1,4 +1,4 @@
-Source code for IJCAI 2025 submission: 233
+Source code for ECAI 2025 paper: Facilitating Matches on Allocation Platforms
 For running an experiment, use the python file with a name equal to the Figure id of the corresponding graph.
 
 Folders:
@@ -13,4 +13,5 @@ util.py: utility functions for running the internal logic.
 
 For accelerating the runs, the map function could be easily replaced with the multiprocessing map function,
 multiprocessing code was tested only in linux. the code itself works also in windows systems.
+
 Required python packages: NetworkX, pandas, seaborn, matplotlib, functools.
